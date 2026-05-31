@@ -1,0 +1,315 @@
+{
+    "model": "Transformer",
+    "n_search": 25,
+    "best_val_f1": 0.6555670793667862,
+    "best_params": {
+        "lr": 0.0001,
+        "dropout": 0.1,
+        "d_model": 256,
+        "n_heads": 8,
+        "n_layers": 3,
+        "batch_size": 16
+    },
+    "all_results": [
+        {
+            "params": {
+                "lr": 0.0001,
+                "dropout": 0.1,
+                "d_model": 256,
+                "n_heads": 8,
+                "n_layers": 3,
+                "batch_size": 16
+            },
+            "val_f1": 0.6555670793667862,
+            "time_sec": 183.9715428352356
+        },
+        {
+            "params": {
+                "lr": 5e-05,
+                "dropout": 0.1,
+                "d_model": 128,
+                "n_heads": 8,
+                "n_layers": 3,
+                "batch_size": 16
+            },
+            "val_f1": 0.6546830117672701,
+            "time_sec": 153.27625799179077
+        },
+        {
+            "params": {
+                "lr": 0.0003,
+                "dropout": 0.1,
+                "d_model": 128,
+                "n_heads": 4,
+                "n_layers": 3,
+                "batch_size": 64
+            },
+            "val_f1": 0.6536000528952293,
+            "time_sec": 79.44710874557495
+        },
+        {
+            "params": {
+                "lr": 0.001,
+                "dropout": 0.2,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 1,
+                "batch_size": 16
+            },
+            "val_f1": 0.6514011736931307,
+            "time_sec": 79.94319415092468
+        },
+        {
+            "params": {
+                "lr": 0.0001,
+                "dropout": 0.1,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 2,
+                "batch_size": 32
+            },
+            "val_f1": 0.6502340076424673,
+            "time_sec": 111.22411513328552
+        },
+        {
+            "params": {
+                "lr": 0.005,
+                "dropout": 0.2,
+                "d_model": 128,
+                "n_heads": 4,
+                "n_layers": 1,
+                "batch_size": 128
+            },
+            "val_f1": 0.6451938121226448,
+            "time_sec": 71.23441886901855
+        },
+        {
+            "params": {
+                "lr": 0.001,
+                "dropout": 0.2,
+                "d_model": 256,
+                "n_heads": 8,
+                "n_layers": 1,
+                "batch_size": 32
+            },
+            "val_f1": 0.6438385762774688,
+            "time_sec": 68.21970391273499
+        },
+        {
+            "params": {
+                "lr": 0.0003,
+                "dropout": 0.2,
+                "d_model": 256,
+                "n_heads": 4,
+                "n_layers": 3,
+                "batch_size": 32
+            },
+            "val_f1": 0.632877903926831,
+            "time_sec": 178.4559769630432
+        },
+        {
+            "params": {
+                "lr": 0.0003,
+                "dropout": 0.2,
+                "d_model": 256,
+                "n_heads": 4,
+                "n_layers": 1,
+                "batch_size": 32
+            },
+            "val_f1": 0.6287424954653275,
+            "time_sec": 63.52480888366699
+        },
+        {
+            "params": {
+                "lr": 5e-05,
+                "dropout": 0.1,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 3,
+                "batch_size": 64
+            },
+            "val_f1": 0.6273924102731507,
+            "time_sec": 83.51394128799438
+        },
+        {
+            "params": {
+                "lr": 0.0003,
+                "dropout": 0.2,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 4,
+                "batch_size": 64
+            },
+            "val_f1": 0.6244974619125305,
+            "time_sec": 63.81716823577881
+        },
+        {
+            "params": {
+                "lr": 0.01,
+                "dropout": 0.1,
+                "d_model": 64,
+                "n_heads": 4,
+                "n_layers": 1,
+                "batch_size": 32
+            },
+            "val_f1": 0.6074121558050998,
+            "time_sec": 82.06788182258606
+        },
+        {
+            "params": {
+                "lr": 5e-05,
+                "dropout": 0.1,
+                "d_model": 64,
+                "n_heads": 4,
+                "n_layers": 4,
+                "batch_size": 16
+            },
+            "val_f1": 0.603994631804182,
+            "time_sec": 112.07263898849487
+        },
+        {
+            "params": {
+                "lr": 5e-05,
+                "dropout": 0.3,
+                "d_model": 64,
+                "n_heads": 4,
+                "n_layers": 1,
+                "batch_size": 128
+            },
+            "val_f1": 0.5099691691069936,
+            "time_sec": 42.44541788101196
+        },
+        {
+            "params": {
+                "lr": 0.005,
+                "dropout": 0.3,
+                "d_model": 64,
+                "n_heads": 4,
+                "n_layers": 3,
+                "batch_size": 128
+            },
+            "val_f1": 0.4820151030855996,
+            "time_sec": 46.13464689254761
+        },
+        {
+            "params": {
+                "lr": 0.001,
+                "dropout": 0.4,
+                "d_model": 256,
+                "n_heads": 8,
+                "n_layers": 2,
+                "batch_size": 64
+            },
+            "val_f1": 0.4707511111491073,
+            "time_sec": 47.14268493652344
+        },
+        {
+            "params": {
+                "lr": 0.0005,
+                "dropout": 0.4,
+                "d_model": 256,
+                "n_heads": 8,
+                "n_layers": 3,
+                "batch_size": 16
+            },
+            "val_f1": 0.469877140195775,
+            "time_sec": 184.3817241191864
+        },
+        {
+            "params": {
+                "lr": 0.001,
+                "dropout": 0.4,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 1,
+                "batch_size": 64
+            },
+            "val_f1": 0.4426683850846489,
+            "time_sec": 43.402361154556274
+        },
+        {
+            "params": {
+                "lr": 0.0005,
+                "dropout": 0.4,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 2,
+                "batch_size": 32
+            },
+            "val_f1": 0.4122847368486579,
+            "time_sec": 45.850358724594116
+        },
+        {
+            "params": {
+                "lr": 0.01,
+                "dropout": 0.3,
+                "d_model": 128,
+                "n_heads": 8,
+                "n_layers": 1,
+                "batch_size": 128
+            },
+            "val_f1": 0.378314570070307,
+            "time_sec": 43.712515115737915
+        },
+        {
+            "params": {
+                "lr": 0.0001,
+                "dropout": 0.5,
+                "d_model": 64,
+                "n_heads": 8,
+                "n_layers": 1,
+                "batch_size": 32
+            },
+            "val_f1": 0.3769961454341403,
+            "time_sec": 44.19117784500122
+        },
+        {
+            "params": {
+                "lr": 0.0001,
+                "dropout": 0.5,
+                "d_model": 128,
+                "n_heads": 4,
+                "n_layers": 4,
+                "batch_size": 64
+            },
+            "val_f1": 0.29940601348766066,
+            "time_sec": 91.82936191558838
+        },
+        {
+            "params": {
+                "lr": 0.0001,
+                "dropout": 0.5,
+                "d_model": 256,
+                "n_heads": 8,
+                "n_layers": 4,
+                "batch_size": 128
+            },
+            "val_f1": 0.29317337479437755,
+            "time_sec": 86.07854795455933
+        },
+        {
+            "params": {
+                "lr": 0.005,
+                "dropout": 0.5,
+                "d_model": 256,
+                "n_heads": 8,
+                "n_layers": 2,
+                "batch_size": 128
+            },
+            "val_f1": 0.2646865394634258,
+            "time_sec": 75.54004192352295
+        },
+        {
+            "params": {
+                "lr": 0.005,
+                "dropout": 0.1,
+                "d_model": 256,
+                "n_heads": 4,
+                "n_layers": 4,
+                "batch_size": 16
+            },
+            "val_f1": 0.0894927536231884,
+            "time_sec": 164.02843189239502
+        }
+    ]
+}

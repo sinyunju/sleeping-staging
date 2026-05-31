@@ -1,0 +1,17 @@
+{
+    "model": "RandomForest",
+    "channel_config": "eeg",
+    "dataset": "combined",
+    "n_channels": 2,
+    "train_time_sec": 0.6660611629486084,
+    "val_metrics": {
+        "accuracy": 0.6181682056401298,
+        "f1_macro": 0.5653714831250334,
+        "kappa": 0.491429336981124
+    },
+    "test_metrics": {
+        "accuracy": 0.634998879677347,
+        "f1_macro": 0.5806284791158445,
+        "kappa": 0.5214602260954138
+    }
+}

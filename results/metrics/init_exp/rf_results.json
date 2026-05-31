@@ -1,0 +1,18 @@
+{
+    "model": "RandomForest_PSD",
+    "dataset": "cassette",
+    "n_estimators": 200,
+    "class_weight": "balanced",
+    "n_features": 20,
+    "train_time_sec": 0.519136905670166,
+    "val_metrics": {
+        "accuracy": 0.572928821470245,
+        "f1_macro": 0.5145663885360913,
+        "kappa": 0.43497552768895653
+    },
+    "test_metrics": {
+        "accuracy": 0.6231470923603193,
+        "f1_macro": 0.5770698270692386,
+        "kappa": 0.5037140840691889
+    }
+}
